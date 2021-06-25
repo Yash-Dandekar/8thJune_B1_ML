@@ -1,4 +1,3 @@
-
 import tkinter as y
 
 expr = " "
@@ -49,4 +48,3 @@ y.Button(app, text='=', width = 5, height=2, command=lambda: total(),bg='red',fo
 y.Button(app, text='+', width = 5, height=2, command=lambda: values('+'),bg='purple',foreground='white').place(x=180,y=280)
 
 app.mainloop()
- 
